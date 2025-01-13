@@ -1,4 +1,4 @@
-# Job Backend Assignment
+# Job Backend Assignment - NxtJobAI
 
 This is a Node.js backend application for managing jobs. It uses Sequelize as an ORM and MySQL as the database. The project supports TypeScript for scalability and maintainability.
 
@@ -8,14 +8,14 @@ Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v14+ recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
-- MySQL database (can be an AWS RDS instance or another MySQL-compatible provider like Aiven)
+- MySQL database (can be an AWS RDS instance or another MySQL-compatible provider like Aiven) - hERE I HAVE AIVEN 🦀🦀
 
 ## Setup Instructions
 
 ### Clone the Repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/AryamanSi17/jobBackendAssignment.git
 cd jobBackendAssignment
 ```
 
@@ -31,11 +31,11 @@ Create a `.env` file in the root of the project and add the following variables:
 
 ```env
 DB_HOST=<your-database-host>
-DB_PORT=3306
-DB_NAME=<your-database-name>
+DB_PORT=21577
+DB_NAME=<your-database-name>  
 DB_USER=<your-database-username>
 DB_PASSWORD=<your-database-password>
-PORT=3000
+DB_SSL_MODE=REQUIRED
 ```
 
 ### Build the Project
@@ -128,6 +128,3 @@ jobBackendAssignment
 
 Feel free to submit issues or pull requests to improve the project.
 
-## License
-
-This project is licensed under the MIT License.
